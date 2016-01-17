@@ -1,0 +1,30 @@
+body {
+	font-family: 'Sumana', serif;
+	background-color: grey;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50em;
+}
+
+.code {
+	font-family: monospace;
+	background-color: #f1f1f1;
+	border: solid;
+	border-color: #f1f1f1;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40em;
+
+}
+
+.title {
+	text-align: center;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 8em;
+}
+
+.subtitles {
+	text-align: left;
+	font-family: 'Sumana', serif;
+	font-size: 3em;
+}

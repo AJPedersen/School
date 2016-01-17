@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "utf-8/">
+	<title>Todo list</title>
+    <link rel="stylesheet" type="css" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Uncial+Antiqua' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sumana' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <h1 class = "title">Todo list DIGHT 350</h1>
+<p class = "subtitles">CREATE</p><br></p>
+<p class = "code">
+	CREATE TABLE todo (<br>
+    id INT (10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,<br>
+    tododate VARCHAR(10) NOT NULL,<br>
+    todolist VARCHAR(100) NOT NULL,<br>
+    duedate VARCHAR(10) NULL<br>
+   )<br>
+</p>
+<p>
+    Create a table 'todo'<br>
+    Fields id (auto increments), date, todo (item to do), due (when the item is due).
+</p>
+
+<p class = "subtitles">INSERT</p><br>
+
+    <p class = "code">
+    INSERT INTO todo<br>
+(tododate,todolist,duedate)<br>  
+VALUES <br> 
+("01/11/2016", "Fix markdown issues with blog", "01/15/2016"),<br>
+("01/11/2016", "Go to ProvoJS meeting on Wednesday at 7pm", "01/12/2016"),<br>
+("01/11/2016", "Go grocery shoppint", "01/15/2016"),<br>
+("01/11/2016", "Plan date with Liesl", "01/15/2016"),<br>
+("01/11/2016", "Find babysitter for date with Liesl", "01/15/2016"),<br>
+("01/11/2016", "Go on date with Liesl", "01/24/2016"),<br>
+("01/11/2016", "Spend 10 minutes with Oliver today one on one", "01/13/2016"),<br>
+("01/11/2016", "Spend 10 minutes with Hazel today one on one", "01/13/2016"),<br>
+("01/11/2016", "Spend 10 minutes with Amelia today one on one", "01/13/2016"),<br>
+("01/11/2016", "Write out mid-term goals", "01/15/2016"),<br>
+("01/13/2016", "Do all the things", NULL);<br>
+</p>
+
+<p>
+Inserts values into 'todo' table.
+</p>
+<p class = "subtitles">WHERE</p><br>
+<p class = "code">
+SELECT todolist FROM todo WHERE duedate = "01/13/2016"<br>
+</p>
+<p>
+Returns all 'todolist' items from 'todo' table where the 'duedate' value = 01/13/2016<br>
+</p>
+<p class = "subtitles">LIKE</p><br>
+<p class = "code">
+SELECT * FROM todo WHERE todolist LIKE "%Liesl"<br>
+</p>
+<p>
+Returns all items including "Liesl" from todolist field from todo database<br>
+</p>
+<p class = "subtitles">LIMIT</p><br>
+<p class = "code">
+SELECT * FROM todo LIMIT 2<br>
+</p>
+<p>
+Returns rows 1-2 from 'todo' table<br>
+</p>
+<p class = "subtitles">LIMIT</p><br>
+<p class = "code">
+SELECT * FROM todo LIMIT 2,9<br>
+</p>
+<p>
+Returns rows 2-8 from 'todo' table<br>
+</p>
+<p class = "subtitles">RANGE</p><br>
+<p class = "code">
+SELECT id FROM todo WHERE id BETWEEN 2 AND 4<br>
+</p>
+<p>
+Returns range of id's between id 2-4.<br>
+</p>
+<p class = "subtitles">NULL</p><br>
+<p class = "code">
+SELECT duedate FROM todo WHERE duedate IS NULL<br>
+</p>
+<p>
+Returns value from 'duedate' field that = NULL<br>
+</p>
+
+
+</body>
+</html>

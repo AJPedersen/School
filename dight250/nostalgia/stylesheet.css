@@ -1,0 +1,38 @@
+/* font-family: 'Amatic SC', cursive; FOR HEADINGS/TITLES
+font-family: 'Merriweather', serif; FOR BODY
+Pallete: http://paletton.com/palette.php?uid=13s0u0k9hjCeMxgbypj5-d%2B1W7X; */
+body {
+	color: black;
+	background-color: #547180;
+}
+p {
+font-family: 'Merriweather', cursive;
+font-size: 1.2em;
+
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 7em;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 5em;
+}
+
+.hola {
+	font-family: 'Amatic SC', cursive;
+	font-size: 5em;
+}
+
+a {
+	text-decoration: none;
+	color: #5D8EA5;
+}
+
+a:visited {
+	color: white;
+}
+
+
