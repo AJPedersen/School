@@ -4,12 +4,28 @@ Pallete: http://paletton.com/palette.php?uid=13s0u0k9hjCeMxgbypj5-d%2B1W7X; */
 body {
 	color: black;
 	background-color: #547180;
+	width: 90%;
+	height: auto;
+	margin: auto;
 }
 p {
 font-family: 'Merriweather', cursive;
 font-size: 1.2em;
 
 }
+
+/* image hover opacity idea
+
+img {
+	opacity: 0.9;
+    transition: opacity .40s ease-in-out;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+*/
 
 h1 {
 	font-family: 'Amatic SC', cursive;
@@ -21,9 +37,8 @@ h3 {
 	font-size: 5em;
 }
 
-.hola {
-	font-family: 'Amatic SC', cursive;
-	font-size: 5em;
+.note {
+font-size: 0.9em;
 }
 
 a {
@@ -35,4 +50,69 @@ a:visited {
 	color: white;
 }
 
+.dandl {
+	border-radius: 50%;
+	width: 300px;
+	height: auto;
+	shape-outside: border-box;
+	float: left;
+	padding: 10px;
 
+}
+
+.hola {
+	border-radius: 10px;
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 12%;
+	right: 0;
+	left: 60%;
+	opacity: 0.75;
+    transition: opacity .40s ease-in-out;
+}
+
+.hola:hover {
+	opacity: 1;
+}
+
+.links {
+	font-size: 1.3em;
+	margin: 75px;
+}
+
+.crabs {
+	border-radius: 10px;
+	height: 300px;
+	width: auto;
+	margin-bottom: 30px;
+}
+
+.lice {
+	border-radius: 10px;
+	height: 300px;
+	width: auto;
+	position: absolute;
+	top: 786px;
+	right: 890px;
+	bottom: 200px;
+	margin-bottom: 30px;
+}
+
+.monkey {
+	border-radius: 10px;
+	height: 300px;
+	width: auto;
+	margin-bottom: 30px;
+
+}
+
+.champa {
+	border-radius: 60px;
+	shape-outside: content-box;
+	height: 165px;
+	width: auto;
+	float: right;
+	margin: 19px;
+
+}
