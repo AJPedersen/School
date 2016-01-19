@@ -43,11 +43,17 @@ font-size: 0.9em;
 
 a {
 	text-decoration: none;
-	color: #5D8EA5;
+	color: white;
+	opacity: 0.6;
+    transition: opacity .40s ease-in-out;
 }
 
 a:visited {
-	color: white;
+	color: #FF896A;
+}
+
+a:hover {
+	opacity: 1;
 }
 
 .dandl {
@@ -68,7 +74,7 @@ a:visited {
 	top: 12%;
 	right: 0;
 	left: 60%;
-	opacity: 0.75;
+	opacity: 0.9;
     transition: opacity .40s ease-in-out;
 }
 
