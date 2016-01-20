@@ -1,6 +1,11 @@
 /* font-family: 'Amatic SC', cursive; FOR HEADINGS/TITLES
 font-family: 'Merriweather', serif; FOR BODY
 Pallete: http://paletton.com/palette.php?uid=13s0u0k9hjCeMxgbypj5-d%2B1W7X; */
+#top {
+	font-size: 1.1em;
+	font-family: 'Merriweather', cursive;
+}
+
 body {
 	color: black;
 	background-color: #547180;
@@ -83,7 +88,7 @@ a:hover {
 }
 
 .links {
-	font-size: 1.3em;
+	font-size: 1.5em;
 	margin: 75px;
 }
 
@@ -122,3 +127,72 @@ a:hover {
 	margin: 19px;
 
 }
+
+.africa {
+	border-radius: 10px;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+}
+
+.maasai {
+	border-radius: 10px;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+
+}
+
+.mango {
+	border-radius: 50%;
+	height: 300px;
+	width: auto;
+	shape-outside: border-box;
+	float: right;
+	margin: 5px;
+	
+
+}
+
+.lyons {
+	border-radius: 75px 10px 75px 10px;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+
+}
+
+#achina {
+	border-radius: 10px 50px 10px 50px;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+
+}
+
+#hk {
+	border-radius: 10px 50px 10px 50px;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+
+}
+
+#lijiang {
+	border-radius: 40%;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+	shape-outside: border-box;
+	float: right;
+
+}
+
+#ch {
+	border-radius: 10px 50px 10px 50px;
+	height: 300px;
+	width: auto;
+	margin: 19px;
+
+}
+
