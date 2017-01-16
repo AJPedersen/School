@@ -9,6 +9,7 @@ Pallete: http://paletton.com/palette.php?uid=13s0u0k9hjCeMxgbypj5-d%2B1W7X; */
 body {
 	color: black;
 	background-color: #547180;
+	background-color: lavender;
 	width: 90%;
 	height: auto;
 	margin: auto;
@@ -150,7 +151,7 @@ a:hover {
 	shape-outside: border-box;
 	float: right;
 	margin: 5px;
-	
+
 
 }
 
@@ -195,4 +196,3 @@ a:hover {
 	margin: 19px;
 
 }
-
